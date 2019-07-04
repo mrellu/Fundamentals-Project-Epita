@@ -1,0 +1,8 @@
+
+Question is :In which year java is created?
+Correct Anser is :1991
+Question is :what is first java program?
+Correct Anser is :helloworld
+Question is :what is the common factor in c++ and java?
+Correct Anser is :oops
+Total Marks you socred in this Quiz is :1
