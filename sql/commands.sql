@@ -18,5 +18,27 @@ create table QUESTION (ID INT,QUESID bigint auto_increment, QUESTION varchar(255
 
 
 
+ALTER TABLE QUIZ
+    ADD PRIMARY KEY (ID);
+	
+	
+	
+
+ALTER TABLE QUESTION
+    ADD PRIMARY KEY (QUESID)
+		
+		
+
+ALTER TABLE QUESTION
+    ADD FOREIGN KEY (ID)
+        REFERENCES QUIZ (ID);
+		
+ALTER TABLE ANSWER
+    ADD FOREIGN KEY (ID)
+        REFERENCES QUESTION (QUESID);
+
+
+
+
 create table USER (ID INT auto_increment,USERNAME varchar(255)   NOT NULL UNIQUE, PASS varchar(255));
 insert into user(USERNAME,PASS) VALUES ('HARISH','H@rish1991')
